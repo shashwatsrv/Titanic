@@ -1,6 +1,0 @@
-Iswoman
-class	
-Cabin access to lifeboats
-age
-
-df.to_csv('Titanic-Engineered.csv', index=False)
