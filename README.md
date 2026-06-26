@@ -40,25 +40,25 @@ Open `titanic.ipynb` and run all cells.
 
 Dual-axis chart showing survival rate (blue line) overlaid on passenger count (grey bars) across all ages.
 
-![Survival Rate and Passenger Count by Age](age_dual_axis.webp)
+![Survival Rate and Passenger Count by Age](assets/age_dual_axis.webp)
 
 ### Survival Rate by Age Group
 
 Children had the highest survival rate (~58%), while seniors had the lowest (~23%).
 
-![Survival Rate by Age Group](age_group.webp)
+![Survival Rate by Age Group](assets/age_group.webp)
 
 ### Survival Rate by Fare Class and Gender
 
 Across all fare tiers, females significantly outsurvived males. The gap narrows slightly in lower fare classes.
 
-![Survival Rate by Fare Class and Gender](fare_class_gender.webp)
+![Survival Rate by Fare Class and Gender](assets/fare_class_gender.webp)
 
 ### Survival Rate by Pclass and Gender
 
 1st class females survived at ~97%. Male survival dropped sharply regardless of class.
 
-![Survival Rate by Pclass and Gender](pclass_gender.webp)
+![Survival Rate by Pclass and Gender](assets/pclass_gender.webp)
 
 ---
 
@@ -66,7 +66,7 @@ Across all fare tiers, females significantly outsurvived males. The gap narrows 
 
 A custom composite score combining Pclass, Sex, Age, and Fare to rank each passenger's survival likelihood. Higher index bins show near-perfect survival rates, validating the metric's predictive power.
 
-![Survival Rate by Survivability Index](survivability_index.webp)
+![Survival Rate by Survivability Index](assets/survivability_index.webp)
 
 ---
 
@@ -80,6 +80,6 @@ Confusion Matrix:
  [109 233]]
 ```
 
-![Model Results](model_results.webp)
+![Model Results](assets/model_results.webp)
 
 The model correctly identified 468 non-survivors and 233 survivors. The Survivability Index aligned closely with model predictions — passengers in 1st class, female, and younger age groups consistently scored highest, matching historical survival patterns.
